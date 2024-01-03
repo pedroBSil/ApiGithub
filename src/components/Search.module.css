@@ -1,0 +1,29 @@
+.search {
+  background-color: rgb(0, 1, 5);
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.search_container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.search_container input,
+.search_container button {
+  padding: 0.6rem;
+  border-radius: 3px;
+  border: none;
+  color: #0e0d0d;
+}
+
+.search_container button {
+  background-color: #131314;
+  
+}
