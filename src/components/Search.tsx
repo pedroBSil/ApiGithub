@@ -20,7 +20,7 @@ const Search = ({ loadUser }: SearchProps) => {
 
   return (
     <div className={classes.search}>
-      <h2><FaGithub color="white" size={40} /> Busque por um usuário:</h2>
+      <h2><FaGithub color="white" size={40} /></h2>
       <div className={classes.search_container}>
         <input
           type="text"
