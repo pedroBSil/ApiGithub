@@ -16,14 +16,6 @@ const User = ({
       <h2>{login}</h2>
       
       <div className={classes.stats}>
-        <div>
-          <p>Seguidores:</p>
-          <p className={classes.number}>{followers}</p>
-        </div>
-        <div>
-          <p>Seguindo:</p>
-          <p className={classes.number}>{following}</p>
-        </div>
       </div>
       <Link to={`/repos/${login}`}>Ver projetos</Link>
     </div>
